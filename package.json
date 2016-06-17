@@ -1,6 +1,6 @@
 {
   "name": "react-router-factories",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Creates factories for each react router function",
   "main": "index.js",
   "repository": {
@@ -22,9 +22,11 @@
   ],
   "author": "lepozepo",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.13.1",
-    "react": "^15.1.0",
+  "dependecies": {
+    "lodash": "^4.13.1"
+  },
+  "peerDependencies": {
+    "react": "^15.0.2",
     "react-router": "^2.4.1"
   }
 }
