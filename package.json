@@ -1,0 +1,17 @@
+{
+  "name": "react-router-factories",
+  "version": "1.0.0",
+  "description": "Creates factories for each react router function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "factory",
+    "factories"
+  ],
+  "author": "lepozepo",
+  "license": "ISC"
+}
