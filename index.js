@@ -2,8 +2,9 @@ var React = require('react');
 var ReactRouter = require('react-router');
 var forIn = require('lodash/forIn');
 
+var wrappedReactRouter = {};
 forIn(ReactRouter, function(component, k) {
-	ReactRouter[k] = React.createFactory(component);
+	wrappedReactRouter[k] = React.createFactory(component);
 });
 
-module.exports = ReactRouter;
+module.exports = wrappedReactRouter;
