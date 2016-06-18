@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactRouter = require('react-router');
-var forIn = require('lodash');
+var forIn = require('lodash/forIn');
 
 forIn(ReactRouter, function(component, k) {
 	ReactRouter[k] = React.createFactory(component);
