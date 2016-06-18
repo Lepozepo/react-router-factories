@@ -1,7 +1,7 @@
 {
   "name": "react-router-factories",
-  "version": "1.0.4",
-  "description": "Creates factories for each react router function",
+  "version": "1.0.5",
+  "description": "Creates factories for each react router function, enables using each component as a function in coffeescript",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -18,13 +18,11 @@
     "react",
     "router",
     "factory",
-    "factories"
+    "factories",
+    "coffeescript"
   ],
   "author": "lepozepo",
   "license": "ISC",
-  "dependecies": {
-    "lodash": "^4.13.1"
-  },
   "peerDependencies": {
     "react": "^15.0.2",
     "react-router": "^2.4.1"
